@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I could directly see the lines where changes occured in the new version of file and i could figure out whether that change is needed one or some typo. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    With entire history of a file in hand, if at some point I am having problems in the latest version I can go back or refer to the older version to make appropriate changes in the new version. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    when we manually choose when to commit we prevent useless commits which might take space uselessly and also prevent duplicate versions of file. But also when we are doing it manually there can situations when we could forget to commit or we fail to judge properly when to commit, this makes commit sometimes too big or too small.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git supports all kinds of program files. In some program files, execution of a file depends on other files. In such a case whenever commit is done all interrelated files need to be commited together all in one commit because a change in one file may reflect in other related files indirectly.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log command is used to view all commits made for that file as well as their author, date and time of commit and its unique id. Using the unique ids of commits of that file we can compare the different versions of file and the changes made using git diff command.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control helps us to execute previous saved versions of file. This helps us to find the changes in the file that introduced bugs in the file, hence finding the exact commit that led to a bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I will use git for saving versions of my program files so that i can make a good program which can be modified at any point of time to the state it was before some changes made or i can find bugs in my programs very easily using diff command to compare 2 commits. 
