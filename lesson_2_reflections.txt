@@ -11,8 +11,10 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical change?
 	Using 'git diff' command we can know what new changes to the files are made in the working directory as it compares working directory with the staging area. Using 'git diff --staged' command we can see that staging area contains how many new logical changes then accordingly we can commit. This command compares the staging area and repository. Therefore in this way we'll know that each commit is contaning only one logical change.  
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	While developing when there are situations like we need to make same functions in different versions while working mainstream, branches help a lot in keeping our history organized and managable.
+		We can make branches for each different version that we make other than the mainstream work and name them. 
+
 
 How do the diagrams help you visualize the branch structure?
 
