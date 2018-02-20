@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  When I need to access my files from any system rather than my local system and make changes to it and commit it and simultaneously 
+  maintain commit history as well, I will use remote repository rather than keeping all my work local. 
