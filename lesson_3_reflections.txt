@@ -29,4 +29,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When we are testing with some new features to incorporate in main program with whose success we are not clear and we know it might need modifications or complete deletion in future, then we make such changes in a separate branch which we can later merge into main branch if we wish to do so. When we are sure with the development in the project we can directly make changes in the master. Having different branch makes the push and pull functions complicated whereas in the master we can easily directly do push and pull.
